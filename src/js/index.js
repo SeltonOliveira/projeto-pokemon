@@ -9,10 +9,10 @@ botaoAlterarTema.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
 
     if(modoEscuroEstaAtivo) {
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/imagens/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "src/imagens/sun.png");
 
     } else {
     // passo 5 - trocar a imagem do botão de alterar tema pra lua
-    imagemBotaoTrocaDeTema.setAttribute("src", "/src/imagens/moon.png");
+    imagemBotaoTrocaDeTema.setAttribute("src", "src/imagens/moon.png");
     };
 });
